@@ -1,0 +1,8 @@
+@media screen and  (max-width: 500px){
+    .slick-next.slick-arrow {
+        display: none;
+    }
+    .slick-prev.slick-arrow {
+        display: none;
+    }
+}

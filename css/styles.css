@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.slick-next.slick-arrow {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/arrow-right.png");
+    border: 1px solid #0b5ed7;
+    border-radius: 50% ;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-next:before {
+    content: '';
+}
+
+.slick-prev:before {
+    content: '';
+}
+
+.slick-prev.slick-arrow {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/arrow-left.png");
+    border: 1px solid #0b5ed7;
+    border-radius: 50% ;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    left: 25px;
+}
+
+.slick-next {
+    right: 25px;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+
+.top-50 {
+    top: 30%!important;
+}
+
+.start-50 {
+    left: 13%!important;
+}
+
+.tnx {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.ui-accordion-header-icon  {
+    background: url("../images/arrow-down.png");
+    position: absolute;
+    right: 25px;
+    top: 30px;
+}
+
+.ui-icon {
+    width: 20px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+    background: url("../images/arrow-down.png");
+}
+
+.ui-accordion-header-active .ui-accordion-header-icon {
+    background-image: url("../images/arrow-up.png");
+    background-repeat: no-repeat;
+}
+
